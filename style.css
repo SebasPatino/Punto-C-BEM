@@ -1,27 +1,28 @@
+/**Estilo general para el contenedor closet**/
 .closet {
     border: 2px solid rgb(146, 38, 38);
     padding: 15px;
     background-color: cadetblue;
 }
 
+/**Estilo para los zapatos dentro del closet**/
 .closet__shoes {
     margin-top: 10px;
     background-color: aqua;
+    font-weight: bold;
 }
 
-.closet__shoes--sports {
-    font-weight: bold;
-    color: darkslateblue;
-    font-style: italic; /*se le aplicó un estilo distinto*/
+/**Estilo adicional para los zapatos: fuente en cursiva**/
+.closet__shoes--font {
+    font-style: italic;
 }
 
-.closet__shoes--school {
-    font-weight: bold;
-    color: rgb(207, 96, 22);
-    text-decoration: underline;  /*se le aplicó un estilo distinto*/
+/**Estilo adicional para los zapatos: subrayado**/
+.closet__shoes--text {
+    text-decoration: underline;
 }
 
-.closet__shoes--work {
-    font-weight: bold;
+/**Estilo adicional para los zapatos: color del texto**/
+.closet__shoes--color {
     color: blueviolet;
 }
