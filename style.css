@@ -1,0 +1,25 @@
+.closet {
+    border: 2px solid rgb(146, 38, 38);
+    padding: 15px;
+    background-color: cadetblue;
+}
+
+.closet__shoes {
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+.closet__shoes--sports {
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.closet__shoes--school {
+    font-weight: bold;
+    color: rgb(207, 96, 22);
+}
+
+.closet__shoes--work {
+    font-weight: bold;
+    color: blueviolet;
+}
