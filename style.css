@@ -12,14 +12,17 @@
 .closet__shoes--sports {
     font-weight: bold;
     color: darkslateblue;
+    font-style: italic;
 }
 
 .closet__shoes--school {
     font-weight: bold;
     color: rgb(207, 96, 22);
+    text-decoration: underline;
 }
 
 .closet__shoes--work {
     font-weight: bold;
     color: blueviolet;
+    
 }
